@@ -1,0 +1,344 @@
+/* GOOGLE FONT FAMILY USAGE */
+
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Megrim', sans-serif;
+font-family: 'Jura', sans-serif;*/
+
+.navbar-text>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    background-image: url('../imgs/_fb_vedauwoo_creek_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    overflow-x:
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Megrim', sans-serif;
+}
+
+.navbar-default {
+    background-color: #2C3E50;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #18BC9C;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #FFFFFF;
+    background-color: #1A242F;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #18BC9C;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #1A242F;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #1E2A36;
+    border-color: #161F29;
+}
+
+.btn-success {
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    color: #FFFFFF;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    color: #FFFFFF;
+    background-color: #13987E;
+    border-color: #13987E;
+}
+
+.btn-default {
+    background-color: #95A5A6;
+    border-color: #95A5A6;
+    color: #FFFFFF;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-success {
+    color: #FFFFFF;
+    background-color: #7F9293;
+    border-color: #74898A;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail img {
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.thumbnail {
+    overflow: hidden;
+}
+
+.thumbnail-custom {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.thumbnail-custom>img, .thumbnail-custom a>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a.thumbnail-custom:hover, a.thumbnail-custom:focus, a.thumbnail-custom.active {
+    border-color: #337ab7;
+}
+
+.thumbnail-custom .caption {
+    padding: 9px;
+    color: #333;
+}
+
+#navigation {
+    padding-top: 25px;
+    height: 105px;
+    width: 100%;
+    border-bottom: 0px;
+    background: rgba(0, 0, 0, 0.9);
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+}
+
+#navLogo {
+    margin-top: -50px;
+    height: 125px;
+    width: auto;
+}
+
+#nav-buttons {
+    height: 100%;
+    transition: 0.3s;
+}
+
+#nav-buttons li {
+    transition: 0.3s;
+}
+
+#nav-buttons li a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+#intro {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -25px;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+#intro h1 {
+    margin-top: 50px;
+    margin-bottom: -25px;
+    font-family: "Reenie Beanie", sans-serif;
+    font-size: 1000%;
+    letter-spacing: 1px;
+}
+
+#intro p {
+    margin-top: -25px;
+    font-family: "Reenie Beanie", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 475%;
+}
+
+.opacityIntro {
+    height: 100%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.opacityName {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: auto;
+    height: 100%;
+}
+
+#logo {
+    margin: 25px;
+    height: 400px;
+    width: auto;
+}
+
+#quote {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#quote p {
+    font-family: "Reenie Beanie", sans-serif;
+    font-size: 50px;
+}
+
+#contact {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#contact a {
+    position: relative;
+    top: -40px;
+    height: 100px;
+    line-height: 89px;
+    width: auto;
+    border: 1px solid white;
+    text-decoration: none;
+    font-family: "Rock Salt", sans-serif;
+    font-size: 300%;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+#history {
+    background-image: url("../imgs/_fb_vedauwoo_4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+#history h1 {
+    font-size: 75px;
+}
+
+#history h4 {
+    font-family: "Rock Salt", sans-serif;
+    font-size: 40px;
+}
+
+#history p {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+}
+
+.opacityHistory {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#links {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+#links h1 {
+    font-size: 75px;
+}
+
+#links p {
+    margin-bottom: 1%;
+}
+
+.opacityLinks {
+    height: 100%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#linkList a {
+    margin: 0 25px;
+    color: #fff;
+}
+
+#customFooter {
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    border-radius: 0px;
+    height: 150px;
+    line-height: 75px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFF;
+}
+
+#footerA p {
+    margin-top: 10px;
+    font-family: "Megrim", sans-serif;
+    font-size: 30px;
+}
